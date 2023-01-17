@@ -35,3 +35,11 @@
   cursor: pointer;
   color: white;
 }
+
+.loaderContainer {
+  width: 200px;
+  height: 200px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 3rem;
+}

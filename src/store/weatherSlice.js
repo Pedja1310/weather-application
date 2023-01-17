@@ -75,6 +75,8 @@ export const { setCoordinates } = weatherSlice.actions;
 
 export const selectCoordinates = (state) => state.weather.coordinates;
 
+export const selectLoading = (state) => state.weather.loading;
+
 export const selectCity = (state) => state.weather.city;
 
 export const selectCountry = (state) => state.weather.country;
