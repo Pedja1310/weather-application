@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  color: #832233;
+  font-weight: 100;
+}
+
+.topContainer {
+  flex: 27.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4.5rem;
+  font-weight: 300;
+}
+
+.middleContainer {
+  flex: 27.5%;
+  border-top: 1px solid #832233;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomContainer {
+  border-top: 1px solid #832233;
+  flex: 45%;
+  width: 100%;
+}

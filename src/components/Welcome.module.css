@@ -1,0 +1,37 @@
+.welcome {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  margin-bottom: 1.4rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.subheader {
+  text-align: center;
+  margin-bottom: 5rem;
+  font-weight: 400;
+}
+
+.ctaBtn {
+  width: 70%;
+  background-color: white;
+  border: 2px solid #832233;
+  border-radius: 6px;
+  padding: 0.7rem 0;
+  color: #832233;
+  font-weight: 500;
+}
+
+.ctaBtn:hover {
+  background-color: #832233;
+  border: 2px solid white;
+  cursor: pointer;
+  color: white;
+}
