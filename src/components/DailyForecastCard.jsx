@@ -2,7 +2,6 @@ import React from "react";
 import { ReactSkycon } from "react-skycons-extended";
 import { formatIconName } from "../helpers/helerFunctions";
 import styles from "./DailyForecastCard.module.css";
-import { DateTime } from "luxon";
 
 const DailyForecastCard = ({ dailyForecast }) => {
   const day = new Date(dailyForecast.time * 1000).toLocaleString("en-us", {
